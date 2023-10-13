@@ -1,0 +1,15 @@
+.background {
+  max-width: 250px;
+  background-color: beige;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.poster {
+  border-radius: 8px;
+  border: outset;
+}
+.title {
+  margin-bottom: 0;
+}

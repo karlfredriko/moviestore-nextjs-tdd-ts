@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -102,4 +102,35 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+body {
+  margin: 0 1rem;
+  min-height: 100vh;
+}
+main {
+  min-height: 74vh;
+}
+
+.headerWrapper {
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+footer {
+  text-align: end;
+  justify-self: end;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
